@@ -1,0 +1,41 @@
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+.z-index {
+position: absolute;
+z-index: 10;
+width: 100%;
+}
+
+.mydrop {
+	background-color: none !important;
+}
+
+#more {
+	display: none !important;
+}
+
+
+.my-bg {
+  background-color: #092139 !important;
+   background-size: 90% 10vh !important;
+   opacity: 0.9;
+}
