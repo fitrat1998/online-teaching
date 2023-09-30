@@ -5,15 +5,15 @@
 </x-slot>
 
   <div class="container">
-        <div class="row m-5">
-    <div class="m-5"></div>
-            <div class="col-md-12 col-md-offset-12 ">
+        <div class="row  ">
+    <div class="m-5 mt-5"></div>
+            <div class="col-md-12 col-md-offset-12 border p-5 shadow-lg p-3 mb-5 bg-white rounded">
                 <div class="login-panel panel panel-default ">
                     <div class="panel-heading p-3 ">
                         <h3 class="panel-title">Please Sign In</h3>
                     </div>
                     <div class="panel-body">
-                        <form role="form" method="POST" action="{{ route('login.store') }}">
+                        <form role="form" method="POST" action="{{ route('login.post') }}">
                             @csrf
                             <fieldset>
                                 <div class="form-group p-3">
@@ -24,7 +24,7 @@
                                 </div>
                                 <div class="checkbox p-3">
                                     <label>
-                                        <input name="remember" type="checkbox" value="Remember Me">Remember Me
+                                            <a href="{{ route('register') }}" style="color:#0C2B4B ;">Registration!</a>
                                     </label>
                                 </div>
 

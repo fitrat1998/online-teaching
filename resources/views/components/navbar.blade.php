@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <a href="" class="nav-item nav-link text-white float-start">Libary</a>
-                <a href="{{ route('login.index') }}" class="nav-item nav-link text-white float-start">Register</a>
+                <a  href="{{ route('login') }}" class="nav-item nav-link text-white float-start my-bg ">Register</a>
             </div>
            <!--  <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get Started<i class="fa fa-arrow-right ms-3"></i></a> -->
         </div>
